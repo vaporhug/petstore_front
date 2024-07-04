@@ -1,0 +1,48 @@
+.header {
+  background-color: #3f51b5;
+  padding: 10px;
+}
+
+.title {
+  cursor: pointer;
+  color: #fff;
+}
+
+.searchContainer {
+  position: relative;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.searchBox {
+  width: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.rightButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchBoxRoot {
+  background-color: #fff;
+  width: 100%;
+}
+
+.notchedOutline {
+  border-color: transparent;
+}
+
+.focused {
+  border-color: #3f51b5 !important;
+}

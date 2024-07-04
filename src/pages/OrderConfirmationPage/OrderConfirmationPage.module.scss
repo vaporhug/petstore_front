@@ -1,0 +1,65 @@
+.confirmationContainer {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.confirmationTitle {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3f51b5;
+  font-weight: bold;
+}
+
+.paper {
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.thankYouMessage {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+.orderNumber {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.divider {
+  margin: 20px 0;
+}
+
+.orderItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.orderItemImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.orderItemDetails {
+  flex: 1;
+}
+
+.totalPrice {
+  text-align: right;
+  color: #f44336;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.actionButton {
+  min-width: 150px;
+  margin: 0 20px;
+}

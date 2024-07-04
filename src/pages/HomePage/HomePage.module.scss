@@ -1,0 +1,87 @@
+/* src/pages/HomePage/HomePage.module.scss */
+@import '../../assets/styles/variables.scss';
+
+.hero {
+  background: url('../../assets/images/hero.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0; // 增加padding确保内容不会被头部遮挡
+  height: 60vh; // 设置高度确保图片显示合适
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #556cd6;
+  color: #fff;
+}
+
+.categories, .newArrivals, .testimonials {
+  padding: 20px;
+  margin-top: 20px; // 增加顶部外边距
+}
+
+.categories h2, .newArrivals h2, .testimonials h2 {
+  margin-bottom: 20px;
+}
+
+.categoryList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.productList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.shopCollectionButton {
+  padding: 10px 20px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #303f9f;
+  }
+}
+
+.quoteContainer {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.quoteText {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
